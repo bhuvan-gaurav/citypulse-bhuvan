@@ -1,5 +1,5 @@
-# print("Hello, Atria University!")
-# # This is a comment — Python ignores this line
+print("Hello, Atria University!")
+# This is a comment — Python ignores this line
 
 print("Welcome to Python!")   # This prints a message
 print("Let's start coding.")
