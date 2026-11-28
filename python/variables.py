@@ -19,16 +19,31 @@
 
 
 
-num_int = 10
+# num_int = 10
+# num_float = float(num_int)
+# print(num_float, type(num_float))      
+
+
+# num_str = "25"
+# str_to_int = int(num_str)
+# print(str_to_int, type(str_to_int))    
+
+
+# price = 99.99
+# price_int = int(price)
+# print(price_int, type(price_int))    
+
+# Integer to float
+num_int = int(input("Enter an integer: "))
 num_float = float(num_int)
-print(num_float, type(num_float))      
+print(num_float, type(num_float))
 
-
-num_str = "25"
+# String to integer
+num_str = input("Enter a whole number as text: ")
 str_to_int = int(num_str)
-print(str_to_int, type(str_to_int))    
+print(str_to_int, type(str_to_int))
 
-
-price = 99.99
+# Float to integer
+price = float(input("Enter a decimal number: "))
 price_int = int(price)
-print(price_int, type(price_int))    
+print(price_int, type(price_int))
