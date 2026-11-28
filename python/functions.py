@@ -1,44 +1,44 @@
 
-# def say_hello():
-#     print("Hello, everyone!")
+def say_hello():
+    print("Hello, everyone!")
 
-# say_hello()
-# say_hello()
-
-
-
-# def greet(name):
-#     print("Hello,", name)
-
-# greet("Priya")
-# greet("Rahul")
+say_hello()
+say_hello()
 
 
 
-# def add(num1, num2):
-#     return num1 + num2
+def greet(name):
+    print("Hello,", name)
 
-# answer = add(10, 20)
-# print(answer)
-
-
-
-# def double(number):
-#     return number * 2
-
-# user_number = int(input("Enter a number: "))
-# print(double(user_number))
+greet("Priya")
+greet("Rahul")
 
 
 
-# def check_even_odd(number):
-#     if number % 2 == 0:
-#         print("Even")
-#     else:
-#         print("Odd")
+def add(num1, num2):
+    return num1 + num2
 
-# check_even_odd(7)
-# check_even_odd(10)
+answer = add(10, 20)
+print(answer)
+
+
+
+def double(number):
+    return number * 2
+
+user_number = int(input("Enter a number: "))
+print(double(user_number))
+
+
+
+def check_even_odd(number):
+    if number % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+check_even_odd(7)
+check_even_odd(10)
 
 def add_numbers(a, b):
     sum = a + b
@@ -94,3 +94,5 @@ elif operation == "/":
     print(divide(num1, num2))
 else:
     print("Invalid operation")
+
+
