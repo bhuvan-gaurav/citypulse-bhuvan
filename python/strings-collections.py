@@ -1,27 +1,27 @@
-# fruits = ["apple", "banana", "mango"]
+fruits = ["apple", "banana", "mango"]
 
-# new_fruit = input("Enter a fruit to add: ")
-# fruits.append(new_fruit)
-# fruits.insert(1, "kiwi")
-# print(fruits)
+new_fruit = input("Enter a fruit to add: ")
+fruits.append(new_fruit)
+fruits.insert(1, "kiwi")
+print(fruits)
 
-# remove_fruit = input("Enter a fruit to remove: ")
-# if remove_fruit in fruits:
-#     fruits.remove(remove_fruit)
-# else:
-#     print(f"{remove_fruit} is not in the list")
+remove_fruit = input("Enter a fruit to remove: ")
+if remove_fruit in fruits:
+    fruits.remove(remove_fruit)
+else:
+    print(f"{remove_fruit} is not in the list")
 
-# fruits.sort()
-# print("Sorted:", fruits)
-# print("Total fruits:", len(fruits))
-# print("First 2:", fruits[:2])
+fruits.sort()
+print("Sorted:", fruits)
+print("Total fruits:", len(fruits))
+print("First 2:", fruits[:2])
 
-# numbers = [10, 20, 30, 40, 50]
-# print(numbers[1:3])    
-# print(numbers[::2])    
+numbers = [10, 20, 30, 40, 50]
+print(numbers[1:3])    
+print(numbers[::2])    
 
-# squares = [num ** 2 for num in range(1, 6)]
-# print("Squares:", squares)
+squares = [num ** 2 for num in range(1, 6)]
+print("Squares:", squares)
 
 
 
