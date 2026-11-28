@@ -48,3 +48,49 @@ a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
 add_numbers(a, b)
+
+
+
+def calculate_grade(name, marks):
+    if marks >= 90:
+        grade = "A"
+    elif marks >= 75:
+        grade = "B"
+    elif marks >= 40:
+        grade = "Pass"
+    else:
+        grade = "Fail"
+    print(name, "scored", marks, "- Grade:", grade)
+
+calculate_grade("Anjali", 88)
+calculate_grade("Ravi", 45)
+calculate_grade("Sneha", 95)
+
+
+
+def add(first, second):
+    return first + second
+
+def subtract(first, second):
+    return first - second
+
+def multiply(first, second):
+    return first * second
+
+def divide(first, second):
+    return first / second
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+operation = input("Enter operation (+, -, *, /): ")
+
+if operation == "+":
+    print(add(num1, num2))
+elif operation == "-":
+    print(subtract(num1, num2))
+elif operation == "*":
+    print(multiply(num1, num2))
+elif operation == "/":
+    print(divide(num1, num2))
+else:
+    print("Invalid operation")
